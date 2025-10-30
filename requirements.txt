@@ -1,9 +1,3 @@
-# 這是運行您的 WesmartAI 證據報告 Web App 所需的所有依賴套件
-
-Flask==3.0.3
-requests==2.32.3
-gunicorn==22.0.0      # 生產級 WSGI 伺服器 (供 Render 啟動服務)
-fpdf2==2.7.8          # 用於生成 PDF 報告 (取代舊版 fpdf)
-qrcode==7.4.2         # 用於生成 QR Code 驗證圖
-Pillow==10.4.0        # 用於處理和儲存圖片檔案 (PIL)
-```eof
+Flask
+requests
+gunicorn
